@@ -1,0 +1,51 @@
+
+.containH{   // ????
+    position: relative;
+    display: flex;
+}
+
+.header{
+    // background-color: burlywood;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    z-index: -2;
+    margin-top: 6.5%;
+}
+.contact{
+    width: 230px;
+    margin-right: 50px;
+    margin-left: 35px;
+    height: auto;
+    margin-bottom: 1%;
+    border-top: 2px solid rgb(32, 29, 29);
+    border-bottom: 2px solid rgb(32, 29, 29);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    div{
+        padding: 12px 5px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+}
+.foto{
+    img{
+        height: 157px;
+    }
+}
+
+.red{
+    font-size: 23px;
+    padding: 4px 3px;
+}
+
+
+

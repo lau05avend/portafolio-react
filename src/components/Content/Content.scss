@@ -1,0 +1,43 @@
+
+.content-body{
+    position: relative;
+    color: black;
+    width: 75%;
+}
+
+.centerC{
+    padding: 25px 8% 10px 4%;
+    padding-top: 25px;
+}
+
+.sectionContent{
+    margin-bottom: 30px;
+
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 28px;
+        color: rgb(51, 49, 49);
+    }
+
+    p{
+        text-align: justify;
+    }
+}
+
+.titler{
+    height: 2px;
+    border-bottom: 2px solid rgb(58, 54, 54);
+    // margin-right: 7%;
+    margin-bottom: 4%;
+}
+
+.timeline{
+    padding: 10px 0;
+    padding-top: 18px;
+}
+
+.css-55vwbm-MuiTimeline-root{
+    align-items: flex-start
+}
+

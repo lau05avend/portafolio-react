@@ -1,0 +1,112 @@
+$colorLateral: #3a3a3c;
+$colorTitle: #add0b8;
+
+.infoLateral{
+    // position: absolute;
+    margin: 0;
+    background-color: $colorLateral;
+    top: 0;
+    left:0;
+    width: 100%;
+    max-width: 280px;
+    max-height: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.container-header{
+    margin: 25px 0;
+    border: 2px solid rgb(221, 215, 215);
+    border-left: none;
+    width: 79%;
+    height: 186px;
+}
+
+.titles{
+    position: absolute;
+    background-color: #add0b8;
+    top: 42.5px;
+    left: 0;
+    padding: 20px 50px 25px 48px;
+    height: auto;
+    width: 182%;
+    max-width: 146%;
+    text-transform: uppercase;
+
+    h1{
+        font-family: candara;
+        margin-bottom: 6px;
+        font-weight: bolder;
+        font-size: 215%;
+        letter-spacing: 2px;
+        color: #2b2929;
+    }
+
+    span{
+        font-size: 19px;
+        font-family: Monospace;
+        letter-spacing: 1.7px;
+    }
+
+}
+
+.content{
+    color: rgb(224, 218, 218);
+    margin-top: 42px;
+}
+
+.section{
+    padding-left: 35px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(126, 120, 120);
+}
+
+.section >{
+    h3{
+        letter-spacing: 4px;
+        margin-bottom: 14px;
+    }
+    .designT{
+        border-bottom: 1px solid #fff;
+        width: 76%;
+        margin-bottom: 34px;
+    }
+}
+
+.itemEd{
+    padding: 5px 0;
+    margin-bottom: 17px;
+    h4{
+        text-transform: uppercase;
+        margin-bottom: 1px;
+    }
+    u{
+        font-size: 14.5px;
+    }
+}
+
+@mixin widhtRange ($lenght) {
+    width: $lenght;
+}
+
+.dialogSk{
+    width: 200%;
+}
+.rangeDiv{
+    padding-bottom: 19px;
+    .range{
+        height: 6px;
+        margin-bottom: 4px;
+        width: 85%;
+        background-color: #b5b5bd;
+    }
+    .range-porcent{
+        height: 6px;
+        background-color: #5d5da8;
+    }
+    .Ladng{
+        background-color: #1a727bc7;
+    }
+}
+
+
