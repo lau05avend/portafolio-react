@@ -1,5 +1,5 @@
 import './Error.scss';
-import { useHistory } from "react-router-dom";
+import { useHistory,Link } from "react-router-dom";
 
 function Error404(){
     let history = useHistory();
@@ -26,7 +26,7 @@ function Error404(){
             <div className="bottom">
                 <div className="buttons">
                     <button className="btn" onClick={history.goBack}>Atrás</button>
-                    <button className="btn">Home</button>
+                    <button className="btn"><Link to="/home" >Home</Link></button>
                 </div>
             </div>
         </div>
