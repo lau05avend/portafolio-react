@@ -6,13 +6,13 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Icon from '@mui/material/Icon';
+// import { createTheme, ThemeProvider } from '@mui/material/styles';
+// import Icon from '@mui/material/Icon';
 
 function Dialog(prop){
 
-    const [fullWidth, setFullWidth] = React.useState(true);
-    const [maxWidth, setMaxWidth] = React.useState('sm')
+    const [fullWidth] = React.useState(true);
+    const [maxWidth] = React.useState('sm')
 
     return(
         <div>
