@@ -2,7 +2,7 @@
   "name": "portafolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lau05avend.github.io/pruebasi",
+  "homepage": "https://lau05avend.github.io/portafolio-react",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",

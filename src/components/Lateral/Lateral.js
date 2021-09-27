@@ -74,7 +74,7 @@ function Lateral(){
                         </div>
                     </div>
                     <div className="rangeDiv">
-                        <span>NodeJS</span><br />
+                        <span>JavaScript</span><br />
                         <div className="range">
                             <div className="range-porcent" style={{ width: "45%" }} data-porcent="45" ></div>
                         </div>
@@ -131,26 +131,21 @@ function Lateral(){
                                 <u>2019 - 2020</u>
                                 <p>SENA | Bogotá, Colombia</p>
                             </div>
+                            <div class="itemEd">
+                                <h4>Tecnólogo en Análisis y Desarrollo de Sistemas de la Información </h4>
+                                <u>2021 - Actualidad</u>
+                                <p>SENA | Bogotá, Colombia</p>
+                            </div>
                         </div>
             </Dialogo>
             <Dialogo  open={openSkills} handleClose={handleCloseSk} title='Habilidades'>
                 <div className="dialogSk">
+                    <br />
+                    <h3>Lenguajes de Programación</h3>
                     <div className="rangeDiv">
                         <span>Java</span><br />
                         <div className="range">
                             <div className="range-porcent" style={{ width: "72%" }} data-porcent="45" ></div>
-                        </div>
-                    </div>
-                    <div className="rangeDiv">
-                        <span>C</span><br />
-                        <div className="range">
-                            <div className="range-porcent" style={{ width: "20%" }} data-porcent="45" ></div>
-                        </div>
-                    </div>
-                    <div className="rangeDiv">
-                        <span>CSS</span><br />
-                        <div className="range">
-                            <div className="range-porcent" style={{ width: "58%" }} data-porcent="45" ></div>
                         </div>
                     </div>
                     <div className="rangeDiv">
@@ -160,7 +155,7 @@ function Lateral(){
                         </div>
                     </div>
                     <div className="rangeDiv">
-                        <span>NodeJS</span><br />
+                        <span>JavaScript</span><br />
                         <div className="range">
                             <div className="range-porcent" style={{ width: "45%" }} data-porcent="45" ></div>
                         </div>
@@ -172,14 +167,36 @@ function Lateral(){
                         </div>
                     </div>
                     <br />
+                    <h3>Base de Datos</h3>
                     <div className="rangeDiv">
-                        <span>Microsoft Office</span><br />
+                        <span>SQL Server</span><br />
                         <div className="range">
-                            <div className="range-porcent" style={{ width: "38%" }} data-porcent="45" ></div>
+                            <div className="range-porcent" style={{ width: "58%" }} data-porcent="45" ></div>
+                        </div>
+                    </div>
+                    <div className="rangeDiv">
+                        <span>MySQL Workbench</span><br />
+                        <div className="range">
+                            <div className="range-porcent" style={{ width: "68%" }} data-porcent="45" ></div>
+                        </div>
+                    </div>
+                    <br/>
+                    <h3>Diseño</h3>
+                    <div className="rangeDiv">
+                        <span>CSS</span><br />
+                        <div className="range">
+                            <div className="range-porcent" style={{ width: "58%" }} data-porcent="45" ></div>
                         </div>
                     </div>
                     <div className="rangeDiv">
                         <span>Illustraitor</span><br />
+                        <div className="range">
+                            <div className="range-porcent" style={{ width: "38%" }} data-porcent="45" ></div>
+                        </div>
+                    </div>
+                    <h3>Otros</h3>
+                    <div className="rangeDiv">
+                        <span>Microsoft Office</span><br />
                         <div className="range">
                             <div className="range-porcent" style={{ width: "38%" }} data-porcent="45" ></div>
                         </div>

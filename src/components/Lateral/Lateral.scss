@@ -90,7 +90,12 @@ $colorTitle: #add0b8;
 }
 
 .dialogSk{
-    width: 200%;
+    // width: 200%;
+    h3{
+        margin-top: 3px;
+        margin-bottom: 10   px;
+        color: #2b2929;
+    }
 }
 .rangeDiv{
     padding-bottom: 19px;

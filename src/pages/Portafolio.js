@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 function Portafolio(){
     return(
         <div className="cv">
-            <Link to="/home" className="backPortafolio">
+            <div className="back">
+                <Link to="/home" className="backPortafolio">
                 <i class="far fa-arrow-alt-circle-left"></i>Volver</Link>
+            </div>
             <Lateral />
             <Content />
         </div>

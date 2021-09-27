@@ -47,14 +47,21 @@
   margin-bottom: 1%;
 }
 
+.back{
+
+}
+
 .backPortafolio{
   position: absolute;
   top:7%;
   left: 3%;
   text-decoration: none;
   align-items: center;
+  color: black;
+
   >i{
     font-size: 30px;
+    margin-right: 4%;
   }
 }
 

@@ -1,0 +1,46 @@
+.bodyy{
+    background: url('http://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+}
+.container{
+    display: flex;
+    // margin-top: 10%;
+    justify-content: space-around;
+    padding: 20px 8%;
+}
+
+.container div {
+    width: 50%;
+
+    h1{
+        color: antiquewhite;
+        text-transform: uppercase;
+        margin: 3% 5%;
+        font-size: 238%;
+    }
+    ul{
+        li{
+            list-style: none;
+            a {
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+        margin-left: 5%;
+    }
+}
+
+.content-C{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-top: 10%;
+}
+
+.imgg{
+    width: 100%;
+}
