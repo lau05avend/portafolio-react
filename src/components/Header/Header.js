@@ -1,4 +1,5 @@
 import Icon from './idk.jpg';
+import perfil from './img1.png';
 import './Header.scss';
 
 function Header(){
@@ -6,7 +7,7 @@ function Header(){
         <div>
             <header className="header">
                 <div className="foto">
-                    <img alt="hola" src={Icon} />
+                    <img alt="hola" src={perfil} />
                 </div>
                 <div className="contact">
                     <div>
